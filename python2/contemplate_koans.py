@@ -2,7 +2,11 @@
 # -*- coding: utf-8 -*-
 
 #so this is Amit Prakash Pandey's working area. Mind It!
-# Acknowledgment:
+<<<<<<< HEAD
+#changes expected in koans1
+=======
+#don't know if this goes into koans1 or not but my target is koans1
+>>>>>>> koans2
 #
 # Python Koans is a port of Ruby Koans originally written by Jim Weirich
 # and Joe O'brien of Edgecase. There are some differences and tweaks specific
