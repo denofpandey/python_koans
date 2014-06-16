@@ -31,12 +31,12 @@ class AboutComprehension(Koan):
         self.assertEqual(__, len(comprehension[2]))
 
     def test_double_list_comprehension(self):
-        list_of_parantha = ['aaloo-parantha', 'gobhi-parantha','methi-parantha']
-        list_of_rice = ['fried rice','saada rice', 'veg biryani']
+        list_of_paranthas = ['aaloo-parantha', 'gobhi-parantha','methi-parantha']
+        list_of_rices = ['fried rice','saada rice', 'veg biryani']
 
-
-        comprehension = [ '{0} and {1}'.format(parantha, meal) for parantha in list_of_paranthas for meal in list_of_meals]
-
+ 
+        comprehension = [ '{0} and {1}'.format(parantha, meal) for parantha in list_of_paranthas for rice in list_of_rices]
+                                      
 
         self.assertEqual(__, len(comprehension))
         self.assertEqual(__, comprehension[0])
