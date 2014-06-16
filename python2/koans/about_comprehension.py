@@ -8,21 +8,19 @@ class AboutComprehension(Koan):
 
 
     def test_creating_lists_with_list_comprehensions(self):
-        feast = ['lambs', 'sloths', 'orangutans', 'breakfast cereals',
-            'fruit bats']
+        meal = ['rice','dal','aaloo-matar','matar-paneer','mix-veg']
 
-        comprehension = [delicacy.capitalize() for delicacy in feast]
+        comprehension = [delicacy.capitalize() for delicacy in meal]
 
         self.assertEqual(__, comprehension[0])
         self.assertEqual(__, comprehension[2])
 
     def test_filtering_lists_with_list_comprehensions(self):
-        feast = ['spam', 'sloths', 'orangutans', 'breakfast cereals',
-            'fruit bats']
+        meal = ['sandwich','burger','dhuska','malpua','jalebi']
 
-        comprehension = [delicacy for delicacy in feast if len(delicacy) > 6]
+        comprehension = [delicacy for delicacy in meal if len(delicacy) > 6]
 
-        self.assertEqual(__, len(feast))
+        self.assertEqual(__, len(meal))
         self.assertEqual(__, len(comprehension))
 
     def test_unpacking_tuples_in_list_comprehensions(self):
@@ -33,11 +31,11 @@ class AboutComprehension(Koan):
         self.assertEqual(__, len(comprehension[2]))
 
     def test_double_list_comprehension(self):
-        list_of_eggs = ['poached egg', 'fried egg']
-        list_of_meats = ['lite spam', 'ham spam', 'fried spam']
+        list_of_parantha = ['aaloo-parantha', 'gobhi-parantha','methi-parantha']
+        list_of_rice = ['fried rice','saada rice', 'veg biryani']
 
 
-        comprehension = [ '{0} and {1}'.format(egg, meat) for egg in list_of_eggs for meat in list_of_meats]
+        comprehension = [ '{0} and {1}'.format(parantha, meal) for parantha in list_of_paranthas for meal in list_of_meals]
 
 
         self.assertEqual(__, len(comprehension))
