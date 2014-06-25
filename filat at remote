@@ -1,0 +1,5 @@
+#This file is created at remote
+def fun(s):
+    if s != NULL:
+        print "seems it worked"
+        
