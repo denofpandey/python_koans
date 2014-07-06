@@ -1,3 +1,4 @@
+#why don't you write comments over here so that it is more visible
 class Song:
     def __init__(self, artist,title,minutes,seconds):
         self.artist=artist
